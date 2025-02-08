@@ -1,0 +1,91 @@
+/* General Navbar Styling */
+.navbar {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background: rgba(0, 0, 0, 0.6); 
+    transition: background 0.3s ease-in-out;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar.scrolled {
+    background: rgb(253, 252, 252); 
+  }
+ 
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+  }
+  
+  .navbar-brand span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: teal;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: teal;
+    text-decoration: underline;
+  }
+  
+  
+  .navbar-toggler {
+    border-color: teal;
+  }
+  /* Search Form */
+  .mx-auto .form-control {
+    width: 300px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .mx-auto .form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 5px teal;
+  }
+  
+  .mx-auto .btn {
+    border-color: teal;
+    color: teal;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .mx-auto .btn:hover {
+    background-color: teal;
+    color: white;
+  }
+ 
+  .btn-primary {
+    background-color: teal;
+    border-color: teal;
+  }
+  
+  .btn-primary:hover {
+    background-color: black;
+    border-color: black;
+  }
+  
+  .btn-outline-primary {
+    border-color: teal;
+    color: teal;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: teal;
+    color: white;
+  }
+  
+ 

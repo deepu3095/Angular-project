@@ -1,0 +1,37 @@
+/* Gallery Card Styling */
+.gallery-card {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .gallery-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Ensure images cover the card area uniformly */
+  .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+  /* Card content typography */
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card-img-top {
+      height: 150px;
+    }
+  }
+  
